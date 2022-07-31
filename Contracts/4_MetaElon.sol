@@ -13,7 +13,7 @@ contract Metaelon is ERC20, ERC20Snapshot, Ownable, Pausable {
     bool is_taxed;
     uint256 tax_fee = 1;
     uint256 dividend = 100; // set dividend to 100 for int tax, set to 1000 for decimal tax (0.4 example)
-    address wallet_fees = 0x16D60ea483c3387667364BFd39C13b7809173E14;
+    address wallet_fees = 0x6b506596cb22ab8b79c422a69a0bb08aa3719e70;
     address[] public excludedFromFees;
 
     constructor() ERC20("MetaElon", "MELON") {
